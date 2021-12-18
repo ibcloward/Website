@@ -1,0 +1,78 @@
+body
+    {
+   
+    }
+    .quote
+    {
+    font-style: italic;
+    font-weight: bold;
+    }
+    .link
+    {
+    color: blue;
+    text-decoration: underline;
+    }
+    .picturefit
+    {
+      text-align: center;
+      width: 50%;
+      display: flex;
+      align-items: center;
+    } 
+    .column 
+    {
+    float: left;
+    width: 50%;
+    }
+    .row:after 
+    {
+    content: "";
+    display: table;
+    clear: both;
+    }
+    .relative 
+    {
+    position: relative;
+    }
+    .common 
+    {
+    border: solid 2px white;
+    position:absolute;
+    }
+
+    .header
+    {
+    font-size: 20px;
+    background-color: #cccccc;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 2;
+    border-bottom: solid 1px #555555;
+    padding-top: 10px;
+    padding-right: 10px
+    }
+    .mainbody
+    {
+    font-size: 20px;
+    top: 114px;
+    bottom: 64px;
+    left: 114px;
+    right: 114px;
+    padding: 10px;
+    }
+    .footer{
+    bottom: 20px;
+    height: 10px;
+    left: 5px;
+    right: 5px;
+    font-size: 15px;
+    color: #111111;
+    text-align: center;
+    position: fixed;
+    }
+    .subheader
+    {
+    float: right;
+    }
